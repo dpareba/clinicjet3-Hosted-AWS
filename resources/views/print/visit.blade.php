@@ -53,6 +53,7 @@
 		{{$visit->nextvisit}}
 		@endif
 	</div>
+	{{-- Change this to var/www/laravel/public/images/rx.jpg, only jpg files allowed --}}
 	<img class="cc" src="var/www/laravel/public/images/rx.jpg" alt="" style="width: 35px; height: 35px;">
 	@if (count($visit->prescriptions)>0)
 		<table>
